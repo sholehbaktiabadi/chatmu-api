@@ -12,5 +12,5 @@ export const AppDataSource = new DataSource({
     database: env.MYSQL_DATABASE,
     entities: [User],
     synchronize: true,
-    logging: ['query'],
+    logging: false,
 })

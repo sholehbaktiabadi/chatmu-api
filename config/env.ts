@@ -7,5 +7,6 @@ export const LoadEnv =()=> ({
     MYSQL_PORT: parseInt(process.env.MYSQL_PORT as string),
     MYSQL_USERNAME: process.env.MYSQL_USERNAME,
     MYSQL_PASSWORD: process.env.MYSQL_PASSWORD,
-    MYSQL_DATABASE: process.env.MYSQL_DATABASE
+    MYSQL_DATABASE: process.env.MYSQL_DATABASE,
+    JWT_SECRET: process.env.JWT_SECRET,
 })
